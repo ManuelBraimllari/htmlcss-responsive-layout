@@ -1,0 +1,169 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* general */
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.btn {
+    all: unset;
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 10em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* nav-bar */
+.nav-top {
+    background-color: #0084FD;
+    height: 4.7rem;
+}
+
+.nav-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-top ul {
+    display: none;
+}
+
+.nav-top .hamburger {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (min-width: 811px) {
+    .nav-top ul {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        list-style: none;
+    }
+    
+    .nav-top li {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .nav-top .nav-link {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 1rem;
+        text-decoration: none;
+        color: white;
+    }
+    
+    /* .nav-top .nav-link:visited {
+        color: white;
+    } */
+    
+    .nav-top .nav-link:hover {
+        background-color: aquamarine;
+    }
+    
+    .nav-top .btn {
+        background-color: white;
+        padding: .5rem;
+    }
+    
+    .nav-top .btn:hover {
+        background-color: lightgray;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+
+.card1 .btn{
+    padding: 5px 2rem;
+    background-color: #0084FD;
+    color: white;
+}
+.card1{
+    display: flex;
+    background-color:rgb(4, 128, 139);
+    max-width: 65%;
+    border-radius: 10%;
+}
+
+.card1 .left{
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    
+}
+.left p{
+    padding: 1rem 0;
+}
+.container .right img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.container .right{
+    margin-right: 3rem;
+   
+}
+
+.container .other-cards{
+    background-color: lightblue;
+    padding: 1rem 0;
+    text-align: center;
+    padding: 1rem 1rem;
+    max-width: 32%;
+    border-radius: 10%;
+}
+.other-cards i{
+    font-size: 80px;
+    color: #0084FD;
+}
+.other-cards h3{
+    padding: 1rem 0;
+    color: #0084FD;
+}
+main .container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.general-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.general-container img{
+    width: 100%;
+}
+
+.container2{
+   
+}
+
+.general-container .left{
+    padding: 3rem 1rem;
+}
+
+.general-container .right{
+    border-radius: 10%;
+    background-color: #0084FD;
+}
